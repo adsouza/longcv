@@ -56,7 +56,7 @@ This time they had me doing performance optimization on a different Java codebas
 batches of data. Their biggest potential client needed the process to finish in under 3 hours, since they had to take down 
 their user-facing web-app while it ran, but they had enough data that our code was taking nearly a full day to run! As you 
 might expect, they were quite unhappy about this and refused to give us their business unless we could demonstrate that the 
-process would finish in under 3 hours. Initially I got some easy wins by simply swithcing to a new version of the Java 
+process would finish in under 3 hours. Initially I got some easy wins by simply switching to a new version of the Java 
 compiler and VM: going from JDK 1.2 to 1.3 gave us a big performance improvement for free! Then I fiddled with various 
 flags to the compiler and VM to squeeze out a surprising amount of additional performance, getting the clock time down to 
 about half of what it used to be without even touching the code itself!
